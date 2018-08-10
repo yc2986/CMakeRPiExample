@@ -3,7 +3,7 @@ project(CMakeRPiExample)
 # setup cross toolchain for RPi 3
 set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR arm)
-set(TOOLCHAIN_DIR /Volumes/RPi3-crosstool/armv8-rpi3-linux-gnueabihf)
+set(TOOLCHAIN_DIR /Volumes/xtool-build-env/armv8-rpi3-linux-gnueabihf)
 set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/bin/armv8-rpi3-linux-gnueabihf-gcc)
 set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/bin/armv8-rpi3-linux-gnueabihf-g++)
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
